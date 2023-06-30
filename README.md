@@ -1,1 +1,1 @@
-This is the codebase for my personal website!
+Welcome to me personal website!
