@@ -4,7 +4,7 @@ export default class Timeline extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="timeline">
+        <section className="colorlib-experience" id="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -15,16 +15,32 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Google -- STEP (Student Training in Engineering) Intern <span> June 2024 - Sept 2024 (Manhattan, New York)</span></h2>
+                        <p>Worked within Android Core Experiments and Gantry to develop and implement new feature flags for project workflows using Java, TypeScript, Guice (dependency injection), and Redux.
+                            Designed and implemented Remote Procedure Calls to enable seamless backend communication, and developed numerous frontend features where the RPCs were integrated, resulting in dynamic and user-friendly interfaces.
+                            Optimized and tested features in order to ensure seamless integration, performance, and effectiveness.
+                            Collaborated effectively within cross-functional teams, leveraging strong communication and problem-solving skills to
+                            drive project success and ensure alignment with overall goals.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduate Student Researcher -- Software Intern <span> March 2023 - present (San Diego, California)</span></h2>
-                        <p>I am currently working with Professors Curt Schurgers and Ramsin Khoshabeh to design and create an enhanced access control system for numerous spaces at UCSD including the ECE MakerSpace and Envision Lab. 
+                        <h2>Electrical and Computer Engineering Dept. -- Software Intern <span> March 2023 - Sept (San Diego, California)</span></h2>
+                        <p>Worked with Professors Curt Schurgers and Ramsin Khoshabeh to design and create an enhanced access control system for numerous spaces at UCSD including the ECE MakerSpace and Envision Lab. 
                         My work is largely based as a backend developer where I utilize tools such as MySQL, TypeScript, Express.js, and Node.js to create a centralized database and server capable of storing numerous data records and efficiently handling data retrieval and manipulation operations.
-                        Through this process, I have been developing and implementing RESTful APIs utilizing HTTP methods to enable seamless communication between our client’s backend systems, in order to ensure efficient data retrieval, manipulation, and storage operations.
+                        Through this process, I developed and implemented RESTful APIs utilizing HTTP methods to enable seamless communication between our client’s backend systems, in order to ensure efficient data retrieval, manipulation, and storage operations.
                         </p>
                       </div>
                     </div>
@@ -50,18 +66,12 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Triton Robotics -- Embedded Systems Developer <span> Sept 2022 - present (San Diego, California)</span></h2>
+                        <h2>Triton Robotics -- Embedded Systems Developer <span> Sept 2022 - Oct 2023 (San Diego, California)</span></h2>
                         <p>Triton Robotics is a student organization participating in RoboMaster, an international robotics competition. I work to code an STM-32 nucleo board to control motors, sensors, and actuators allowing for robot movement. 
                         My past project worked on developing Mutex threading in order to more efficiently print to console while simultaneously running robot code without damaging data. Currently, I am working on creating a centralized turret class
                         capable of managing and operating all functionality of shooting and aiming for numerous different robots. Throughout these projects, I have mainly utilized C++ and Mbed OS within a Linux environment to implement different functionalities.
                         </p> 
                         <a href="https://github.com/Triton-Robotics/TR-mbed">Check out our codebase!</a>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
                       </div>
                     </div>
                   </article>

@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
@@ -58,8 +58,8 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Robotics</h3>
-                    <p>I have also been involved in robotics for many years now. I am currently working on an STM-32 nucleo board using C++ to create functionality for my robotics team where we participate in the RoboMaster competition!</p>
+                    <h3>Interests</h3>
+                    <p>Some of my interests include robotics, the intersection between hardware and software, cybersecurty, AI/ML and more! I am always looking to learn new technologies and frameworks!</p>
                 </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Education extends Component {
   render() {
     return ( 
-    <section className="colorlib-education" data-section="education">
+    <section className="colorlib-education" id="education">
     <div className="colorlib-narrow-content">
         <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
@@ -26,9 +26,8 @@ export default class Education extends Component {
                             <div className="panel-body">
                                 <p>Currently attending the University of California - San Diego (UCSD) for a Bachelor's of Science in Computer Engineering.</p>
                                 <ul>
-                                    <li>Overall GPA: 3.93</li>
-                                    <li>Courses: Basic Data Structures and Object-Oriented Design, Software Tools and Techniques Laboratory, Computer Organization and Systems Programming, Discrete Mathematics, Calculus for Science and Engineering, Linear Algebra etc.</li>
-                                    <li>CSE 8A, CSE 11, CSE 12, CSE 15L, CSE 20, CSE 30, MATH 20A-C, MATH 18</li>
+                                    <li>Major GPA: 4.00</li>
+                                    <li>Courses: Advanced Data Structures, Design and Analysis of Algorithms, Computer Architecture, Software Engineering, Computer Organization and Systems Programming, Components and Design Techniques for Digital Systems, Discrete Mathematics, Linear Algebra etc.</li>
                                 </ul>
                             </div>
                         </div>

@@ -7,11 +7,10 @@ export default class Introduction extends Component {
         
       <div className = 'whole'>
         <div className = 'image'>
-          hi
         </div>
         <div className = 'text'>
           <h1>Hi! <br /> <br />I'm Emma</h1>
-            <p><a className="cv" href="https://drive.google.com/file/d/1qmg6mNpE4IGefYPdKdDS3QQzvASOXayE/view?usp=sharing" target="_blank" rel="noopener noreferrer">VIEW CV<i className="icon-download4" /></a></p>
+            <p><a className="cv" href="https://drive.google.com/file/d/1F8Y7RpjrcTxlov_k4Gh3JU1X4KPY7kA4/view?usp=drive_link" target="_blank" rel="noopener noreferrer">VIEW CV<i className="icon-download4" /></a></p>
         </div>
       </div>
     )        
